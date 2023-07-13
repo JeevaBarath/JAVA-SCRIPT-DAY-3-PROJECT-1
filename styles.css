@@ -1,0 +1,57 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("https://th.bing.com/th/id/OIP.Vb_AuWsVwzN8PqU-5esh5AHaFT?w=274&h=195&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+}
+section{
+    text-align: center;
+    padding-left: 250px;
+    padding-top: 50px;
+    
+    
+}
+.game--container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    color: black;
+    width: 300px;
+    margin: 50px auto;
+    
+    
+}
+.cell{
+    font-family: "Permanant Marker",cursive;
+    width: 100px;
+    height: 100px;
+    border: solid 5px;
+    cursor: pointer;
+    font-size: 75px;
+    line-height: 100px;
+    border-radius: 15px;
+}
+h1{
+    color:rgb(253, 78, 107);
+}
+.game--restart{
+    transition: transform 0.3s ease-in-out;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.game--restart:hover{
+    transform: scale(1.3);
+}
